@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieInfo HD+</string>
+    <string name="poster_of_movie">Постер к фильму</string>
+    <string name="most_popular">Самые популярные</string>
+    <string name="top_rated">Наиболее рейтинговые</string>
+    <string name="add_to_favourite">Добавлено в избранное</string>
+    <string name="delete_from_favourite">Удалено из избранного</string>
+    <string name="item_main">Главная</string>
+    <string name="item_favourite">Избранное</string>
+    <string name="launch_trailer">Запустить трейлер</string>
+    <string name="movie_title_lang">Название:</string>
+    <string name="original_title_lang">Оригин. название:</string>
+    <string name="rating_lang">Рейтинг:</string>
+    <string name="release_date_lang">Дата релиза:</string>
+    <string name="description_lang">Описание:</string>
+</resources>

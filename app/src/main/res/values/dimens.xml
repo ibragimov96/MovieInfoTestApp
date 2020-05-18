@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_of_star">60dp</dimen>
+    <dimen name="size_of_star_land_orient">50dp</dimen>
+    <dimen name="text_standard_size">16sp</dimen>
+</resources>
