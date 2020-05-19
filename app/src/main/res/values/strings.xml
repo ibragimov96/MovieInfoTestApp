@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">MovieInfo HD+</string>
     <string name="poster_of_movie">Movie poster</string>
-    <string name="most_popular">Most popular</string>
     <string name="top_rated">Top rated</string>
     <string name="add_to_favourite">Added to favourite</string>
     <string name="delete_from_favourite">Deleted from favourite</string>
@@ -13,4 +12,5 @@
     <string name="rating_lang">Rating:</string>
     <string name="release_date_lang">Release date:</string>
     <string name="description_lang">Description:</string>
+    <string name="most_n_popular">Most popular</string>
 </resources>
