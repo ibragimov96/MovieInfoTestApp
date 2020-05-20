@@ -2,9 +2,11 @@ package uz.diyorbek.com.movieinfohd.data;
 
 import androidx.room.Entity;
 import androidx.room.Ignore;
+import androidx.room.Index;
 import androidx.room.PrimaryKey;
 
-@Entity(tableName = "movies")
+@Entity(tableName = "movies", indices = {@Index(value = {"id"},
+        unique = true)})
 public class Movie {
     @PrimaryKey(autoGenerate = true)
     private int uniqueId;

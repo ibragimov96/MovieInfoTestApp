@@ -5,6 +5,7 @@ package uz.diyorbek.com.movieinfohd;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -84,7 +85,7 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     @Override
-    protected void onCreate (Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
@@ -101,12 +102,13 @@ public class DetailActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         if (intent != null && intent.hasExtra("id")) {
-            id = intent.getIntExtra("id",  -1);
+            id = intent.getIntExtra("id", -1);
         } else {
             finish();
         }
         viewModel = ViewModelProviders.of(this).get(MainViewModel.class);
         movie = viewModel.getMovieById(id);
+        Log.d("LOGGERR", "onCreate: " + id + " " + movie);
         Picasso.get().load(movie.getBigPosterPath()).placeholder(R.drawable.movie_no_internet).into(imageViewBigPoster);
         textViewTitle.setText(movie.getTitle());
         textViewOriginalTitle.setText(movie.getOriginalTitle());
@@ -117,7 +119,7 @@ public class DetailActivity extends AppCompatActivity {
         recyclerViewTrailers = findViewById(R.id.recyclerViewTrailers);
         recyclerViewReviews = findViewById(R.id.recyclerViewReviews);
         reviewAdapter = new ReviewAdapter();
-        trailerAdapter= new TrailerAdapter();
+        trailerAdapter = new TrailerAdapter();
         trailerAdapter.setOnTrailerClickListener(new TrailerAdapter.OnTrailerClickListener() {
             @Override
             public void onTrailerClick(String url) {

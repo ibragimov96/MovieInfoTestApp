@@ -194,7 +194,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         ArrayList<Movie> movies = JSONUtils.getMoviesFromJSON(jsonObject);
         if (movies != null && !movies.isEmpty()) {
             if (page == 1) {
-                viewModel.deleteAllMovies();
+//                viewModel.deleteAllMovies();
                 movieAdapter.clear();
             }
             for (Movie movie : movies) {
