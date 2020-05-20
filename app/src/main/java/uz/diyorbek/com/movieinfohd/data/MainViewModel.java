@@ -45,7 +45,6 @@ public class MainViewModel extends AndroidViewModel {
         return null;
     }
 
-
     public LiveData<List<FavouriteMovie>> getFavouriteMovies() {
         return favouriteMovies;
     }
@@ -75,7 +74,6 @@ public class MainViewModel extends AndroidViewModel {
     }
 
     private static class DeleteFavouriteTask extends AsyncTask<FavouriteMovie, Void, Void> {
-
         @Override
         protected Void doInBackground(FavouriteMovie... movies) {
             if (movies != null && movies.length > 0) {
@@ -86,7 +84,6 @@ public class MainViewModel extends AndroidViewModel {
     }
 
     private static class InsertFavouriteTask extends AsyncTask<FavouriteMovie, Void, Void> {
-
         @Override
         protected Void doInBackground(FavouriteMovie... movies) {
             if (movies != null && movies.length > 0) {
@@ -119,7 +116,6 @@ public class MainViewModel extends AndroidViewModel {
     }
 
     private static class DeleteMoviesTask extends AsyncTask<Void, Void, Void> {
-
         @Override
         protected Void doInBackground(Void... integers) {
             dataBase.movieDao().deleteAllMovies();
