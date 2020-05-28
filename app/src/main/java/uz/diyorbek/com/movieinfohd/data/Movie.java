@@ -5,8 +5,8 @@ import androidx.room.Ignore;
 import androidx.room.Index;
 import androidx.room.PrimaryKey;
 
-@Entity(tableName = "movies", indices = {@Index(value = {"id"},
-        unique = true)})
+@Entity(tableName = "movies", indices = {@Index(value = {"id"}, unique = true)})
+
 public class Movie {
     @PrimaryKey(autoGenerate = true)
     private int uniqueId;

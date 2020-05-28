@@ -15,4 +15,11 @@
     <string name="most_n_popular">Most popular</string>
     <string name="find_out">Greetings, here you can find out about me!</string>
     <string name="sur_nam">Ibragimov Diyorbek</string>
+    <string name="developer_android">Android Developer</string>
+    <string name="developer_info">Ibragimov Diyorbek</string>
+    <string name="university_name">FB of T.U.I.T</string>
+    <string name="insta_name">diyorbek_ibragimov</string>
+    <string name="telegram_name">diyorbek_ibragimov</string>
+    <string name="term_paper">Term paper \n on the subject Database</string>
+    <string name="about_developer_info">About developer</string>
 </resources>

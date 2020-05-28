@@ -8,5 +8,5 @@
         android:title="@string/item_favourite" />
     <item
         android:id="@+id/aboutDev"
-        android:title="About developer" />
+        android:title="@string/about_developer_info" />
 </menu>

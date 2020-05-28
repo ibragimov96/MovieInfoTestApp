@@ -16,4 +16,11 @@
     <string name="description_lang">Описание:</string>
     <string name="find_out">Приветствую, здесь вы можете узнать обо мне!</string>
     <string name="sur_nam">Ибрагимов Диёрбек</string>
+    <string name="developer_info">Ибрагимов Диёрбек</string>
+    <string name="insta_name">diyorbek_ibragimov</string>
+    <string name="developer_android">Андроид разработчик</string>
+    <string name="university_name">ФФ Т.У.И.Т</string>
+    <string name="telegram_name">diyorbek_ibragimov</string>
+    <string name="term_paper">Курсовая работа по БД</string>
+    <string name="about_developer_info">О разработчике</string>
 </resources>
