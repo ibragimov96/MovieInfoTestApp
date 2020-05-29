@@ -10,17 +10,15 @@
     <string name="item_favourite">Избранное</string>
     <string name="launch_trailer">Запустить трейлер</string>
     <string name="movie_title_lang">Название:</string>
-    <string name="original_title_lang">Оригинал. \nназвание:</string>
+    <string name="original_title_lang">Оригинал. наз.:</string>
     <string name="rating_lang">Рейтинг:</string>
     <string name="release_date_lang">Дата релиза:</string>
     <string name="description_lang">Описание:</string>
     <string name="find_out">Приветствую, здесь вы можете узнать обо мне!</string>
     <string name="sur_nam">Ибрагимов Диёрбек</string>
     <string name="developer_info">Ибрагимов Диёрбек</string>
-    <string name="insta_name">diyorbek_ibragimov</string>
     <string name="developer_android">Андроид разработчик</string>
-    <string name="university_name">ФФ Т.У.И.Т</string>
-    <string name="telegram_name">diyorbek_ibragimov</string>
+    <string name="university_name">ФФ ТУИТ</string>
     <string name="term_paper">Курсовая работа по БД</string>
     <string name="about_developer_info">О разработчике</string>
 </resources>

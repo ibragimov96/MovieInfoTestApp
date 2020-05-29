@@ -48,6 +48,10 @@ public class FavouriteActivity extends AppCompatActivity {
                 Intent intentToFavourite = new Intent(this, FavouriteActivity.class);
                 startActivity(intentToFavourite);
                 break;
+            case R.id.aboutDev:
+                Intent intentToDeveloper = new Intent(this, DeveloperActivity.class);
+                startActivity(intentToDeveloper);
+                break;
         }
         return super.onOptionsItemSelected(item);
     }
