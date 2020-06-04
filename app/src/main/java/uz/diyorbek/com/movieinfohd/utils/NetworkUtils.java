@@ -20,7 +20,6 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.ExecutionException;
 
-// Здесь осуществляется вся работа связанная с сетью
 
 public class NetworkUtils {
 
